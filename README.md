@@ -1,12 +1,13 @@
 # lab5RestApi
 
-#Access API_Route
-Get api/articles => tous le sarticles
+#Webservices
 
-Get api/articles/{id} => recupperer un article
+Get /articles => tous le sarticles
 
-Post api/articles => ajouter un article
+Get /articles/{id} => recupperer un article à partir de l'id
 
-Delete api/aricles/{id} => suprimer un article
-# RestApi
-# TestRestAPI
+Get /article/{slug} => recupperer un article à partir du slug
+
+Post /articles => ajouter un article
+
+Delete /aricles/{id} => suprimer un article
